@@ -55,72 +55,58 @@
   </header>
   <main>
     
-    <div class="hero">
-      <div class="hero-text">
-        <p>BJJ Puerta Del Angel - Escuela de JiuJitsu</p>
-        <h1>EMPIEZA AHORA TU VIAJE EN EL JIU JITSU CON NOSOTROS</h1>
-      </div>
-    </div>
-    <div class="self-container">
-    <div class="intro">
-      <h2>COMIENZA A GANAR MÁS CONFIANZA Y UNA MEJOR FORMA FÍSICA MIENTRAS ADQUIERES CONOCIMIENTOS QUE DE VERDAD SIRVEN</h2>
-    </div>
-    <div class="programmes">
-      <div class="heading">
-        <h4>NUESTROS PROGRAMAS</h4>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-10 col-lg-3 col-md-4 col-sm-8 program">
-            <img src="/assets/images/bjjtwo.jpg">
-          <div class="program-text">
-            <h2> Programa De Adultos </h2>
-            <p>DESTINADO A PERSONAS MAYORES DE 16 AÑOS QUE BUSCAN MEJORAR SU VIDA A TRAVÉS DEL JIU JITSU, TANTO HOMBRES COMO MUJERES.
-            </p>
-          </div>
+    <div class="container">
+        <div class="row justify-content-center contact">
+            <div class="col-12">
+                <h1>Puedes contactarnos aqui</h1>
+            </div>
         </div>
-        <div class="col-10 col-lg-3 col-md-4 col-sm-8 program">
-          <img src="/assets/images/bjjthree.jpg">
-          <div class="program-text">
-          <h2>JiuJitsu Kids</h2>
-          <p>
-            CON VARIOS GRUPOS FORMADOS EN FUNCIÓN DE LA EDAD, ESTE PROGRAMA ESTÁ DESTINADO A NIÑOS DESDE LOS 3 A 15 AÑOS.
+    </div>
+    <section class="contact-section">
+        <div class="contact-intro">
+          <h2 class="contact-title">Get in Touch</h2>
+          <p class="contact-description">
+            Fill out the form below and we'll get back to you as soon as possible.
           </p>
         </div>
-        </div>
-        <div class="col-10 col-lg-3 col-md-6 col-sm-8 program">
-          <img src="/assets/images/armbar.jpg">
-          <div class="program-text">
-          <h2>Clases Privadas</h2>
-          <p>EL MEJOR COMPLEMENTO SI QUIERES AVANZAR MÁS RÁPIDO O TIENES UNA DISPONIBILIDAD COMPLICADA.</p>
-        </div>
-        </div>
-      </div>
-      <div class="equipo row justify-content-center">
-        <div class="col-12 col-lg-6 col-md-10 col-sm-8 text-flex">
-          <h4>SOMOS UN GRAN EQUIPO</h4>
-          <p>En nuestro club de Brazilian Jiu-Jitsu (BJJ), cada entrenamiento es una oportunidad para aprender y crecer, rodeado de un equipo unido y motivador. Ya seas principiante o avanzado, te ofrecemos un ambiente de respeto donde todos pueden avanzar.
-
-            El BJJ fortalece cuerpo y mente, desarrollando disciplina, resistencia y confianza. Únete a nosotros y descubre lo que este arte marcial puede ofrecer. ¡Juntos somos más fuertes!</p>
-        </div>
-        <div class="col-12 col-lg-6 col-md-10 col-sm-8 image-flex">
-            <img src="/assets/images/bjjone.jpg">
-        </div>
-        </div>
-        <div class="map row">
-          <div class="map-col col-12">
-            <h4>DONDE ESTAMOS</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.933793011195!2d-3.736148423636981!3d40.41031745602907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227fd3475c7bd%3A0x2a9800fb68e679a5!2sC.%20de%20Cabello%20Lapiedra%2C%204%2C%20Latina%2C%2028011%20Madrid%2C%20Spain!5e0!3m2!1sen!2snl!4v1735435980030!5m2!1sen!2snl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+      
+          <input type="hidden" name="access_key" value="c288b1eb-b3cd-4034-9aae-fb672799e7de" />
+          <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+          <input type="hidden" name="from_name" value="My Website" />
+          <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+      
+          <div class="form-group-container">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone</label>
+              <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+            </div>
           </div>
-        </div>
+          <button class="form-submit" type="submit">Send Message</button>
+        </form>
+      
+      </section>
+      <div class="whatsapp row justify-content-center">
+        <div class="col-8">
+            <h3>WhatsApp</h3>
+            <img src="/assets/images/WhatsAppButtonGreenMedium.png">
       </div>
-    </div>
-  </div>
-  </main>
-
-
   <footer class="footer bg-dark text-white py-4">
     <div class="container-fluid">
-        <div class="row">
+        <div class="rowt">
             <div class="col-12 footer-div">
                 <h5>Find Me Here</h5>
                 <div class="social-icons">
