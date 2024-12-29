@@ -19,6 +19,9 @@ main {
 
 .self-container {
   padding: 30px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
@@ -96,7 +99,7 @@ main {
 .program {
   text-align: center;
   font-family: "Roboto", serif;
-  min-height: 600px;
+  height: 600px;
   margin-bottom: 10px;
   margin-left: 10px;
   background-color: rgb(248, 250, 252);
@@ -153,6 +156,7 @@ main {
   width: 100%;
   margin-left: auto !important;
   margin-right: auto !important;
+  margin-top: 40px;
 }
 
 .image-flex {
@@ -172,8 +176,8 @@ main {
   border-radius: 5px;
 }
 
-.equipo {
-  margin-top: 40px;
+.equipo p {
+  text-align: left;
 }
 
 .map {
@@ -376,6 +380,34 @@ caption {
   margin-bottom: 80px;
   text-align: center;
 }
+
+/*Gallery*/
+
+.gallery {
+  display: flex;
+  margin-top: 80px;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+#images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#images img {
+  width: 500px;
+  height: auto;
+  padding: 10px;
+}
+
+
+
 /*FOOTER */
 
 .footer {
@@ -396,6 +428,8 @@ caption {
   .navbar-nav .nav-item {
     align-self: center;
   }
+
+
 
   @media (max-width: 991px) {
     .navbar-collapse {
@@ -425,11 +459,25 @@ caption {
       margin-left: auto;
       margin-right: auto;
     }
-    
+    .equipo p {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .privada {
+      height: 400px;
+    }
   }
 
-  @media (max-width: 992px) {
+  @media (min-width: 992px){
+    #images img {
+      width: 30%;
+      height: auto;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
     .program {
-      height: 500px;
+      height: 400px;
     }
 }
